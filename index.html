@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./bootstrap-3.4.1-dist/js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <iframe src="./home.html" name="content" frameborder="0"></iframe>
+    <section>
+        <a href="./home.html" target="content">
+            <img src="./img/tab/home1.png" data-img="./img/tab/home" alt="">
+            <span class="active">首页</span>
+        </a>
+        <a href="categories.html" target="content">
+            <img src="./img/tab/class2.png" data-img="./img/tab/class" alt="">
+            <span>分类</span>
+        </a>
+        <a href="discover.html" target="content">
+            <img src="./img/tab/discover2.png" data-img="./img/tab/discover" alt="">
+            <span>发现</span>
+        </a>
+        <a href="shoppingCart.html" target="content">
+            <img src="./img/tab/car2.png" data-img="./img/tab/car" alt="">
+            <span>购物车</span>
+        </a>
+        <a href="me.html" target="content">
+            <img src="img/tab/me2.png" data-img="./img/tab/me" alt="">
+            <span>我的</span>
+        </a>
+    </section>
+
+    <script>
+        // 给tab 添加点击事件
+        $('section>a').on('click', function () {
+            //(this)找到 当前被点击的a标签
+            //.index() 获取对应的索引值（可以看出是第几个）
+            const nums = $(this).index()
+            // 弹出框
+            //alert(nums)
+            // 找到所有的 a 标签
+            const as = $('section>a')
+            for (let index = 0; index < as.length; index++) {
+                //取出每一个按钮
+                // 找到 a 标签下面的img
+                const img = $(as[index]).children()[0];
+                //找到 a 标签下面的 span
+                const span = $(as[index]).children()[1];
+                //const element = array[index];
+                // 点击的是当前按钮
+                if (index == nums) {
+                    //修改图片样式
+                    $(span).addClass('active')
+                    $(img).attr('src', $(img).attr('data-img') + '1.png')
+                } else {
+                    // 点击的不是当前按钮
+                    $(span).removeClass('active')
+                    $(img).attr('src', $(img).attr('data-img') + '2.png')
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

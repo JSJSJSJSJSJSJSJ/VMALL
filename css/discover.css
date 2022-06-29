@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+}
+
+main>section {
+    padding: 0 10px;
+    display: flex;
+}
+
+main>section a {
+    height: 100%;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+main>section a img {
+    width: 41.66px;
+    height: 41.66px;
+}
+
+main>section a p {
+    font-size: 12px;
+}
+
+.huati {
+    width: 100%;
+    height: 41px;
+    /* background-color: pink; */
+    text-align: left;
+    padding: 0 16px;
+    position: relative;
+}
+
+.footer ul {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.footer ul li {
+    width: 100%;
+    height: 254px;
+    padding: 0 0 20px;
+    /* background-color: aqua; */
+    /* margin: 10px; */
+}
+
+.wenzhang>div:nth-of-type(1) {
+    width: 100%;
+    height: 153px;
+    padding: 0 6px 12px;
+    overflow: hidden;
+    /* background-position: ; */
+}
+
+.wenzhang1>div,
+.wenzhang2>div,
+.wenzhang3>div,
+.wenzhang4>div,
+.wenzhang5>div,
+.wenzhang6>div,
+.wenzhang7>div,
+.wenzhang8>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    /* background-color: red; */
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.wenzhang1>div {
+    background-image: url(../img/image1/faxian10.png);
+}
+
+.wenzhang2>div {
+    background-image: url(../img/image1/faxian11.png);
+}
+
+.wenzhang3>div {
+    background-image: url(../img/image1/faxian12.png);
+}
+
+.wenzhang4>div {
+    background-image: url(../img/image1/faxian13.png);
+}
+
+
+.wenzhang p:first-of-type {
+    display: inline-block;
+    color: black !important;
+    padding-left: 10px !important;
+
+}
+
+.wenzhang p:last-of-type {
+    font-size: 12px;
+    padding-left: 12px;
+    color: #6666;
+    margin: 0;
+}
+
+.wenzhang div:nth-of-type(2) {
+    padding: 0 12px;
+    margin-top: 5px;
+}
+
+.wenzhang div:nth-of-type(2)>span:first-child {
+    float: left;
+    font-size: 12px;
+    color: gray;
+}
+
+.wenzhang div:nth-of-type(2)>span:last-child {
+    float: right;
+    font-size: 12px;
+    color: gray;
+}
+
+.footer>div{
+    width: 100%;
+    height: 50px;
+    /* background-color: pink; */
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer>div>div>a{
+    color: gray;
+}
+
+
+.fanhui {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 999999;
+    font-size: 30px;
+}

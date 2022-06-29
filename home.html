@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style: none;
+        }
+
+        body,
+        html {
+            background-color: rgb(241, 243, 245);
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        header {
+            width: 100%;
+            height: 58px;
+            background-color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+        }
+
+        header>div:first-child {
+            padding: 0 16px;
+            height: 58px;
+        }
+
+        .box1>div:first-child {
+            /* line-height: 58px; */
+            transform: translate(0, 50%);
+            display: inline-block;
+        }
+
+        .box1>div:nth-of-type(2) {
+            height: 100%;
+            width: 72px;
+            /* background-color: red; */
+            float: right;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box1>div:last-of-type {
+            height: 100%;
+            width: 170px;
+            /* background-color: blue; */
+            float: right;
+            position: relative;
+
+        }
+
+        .box1>div:last-of-type span {
+            position: absolute;
+            height: 30px;
+            width: 30px;
+            /* background-color: aqua; */
+            top: 16px;
+            left: 0;
+            text-align: center;
+            line-height: 30px;
+            color: gray;
+        }
+
+        .box1>div:last-of-type input {
+            width: 170px;
+            height: 44px;
+            border-radius: 22px;
+            margin-top: 9px;
+            padding-left: 30px;
+            font-size: 15px;
+            background-color: rgb(241, 243, 245);
+            border: none;
+            outline: none;
+        }
+
+        .liwu div {
+            width: 24px;
+            height: 24px;
+            /* background-color: pink; */
+            text-align: center;
+            line-height: 24px;
+            font-size: 16px;
+        }
+
+        .liwu div:last-child img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="box1">
+        <div><img src="./img/image/logo_red.png" alt=""></div>
+        <div class="liwu">
+            <div class="glyphicon glyphicon-comment"></div>
+            <div><img src="./img/image/c18.png" alt=""></div>
+        </div>
+        <div>
+            <span class="glyphicon glyphicon-search"></span>
+            <input type="text" placeholder="华为手机">
+        </div>
+    </div>
+    <div class="clear"></div>
+</header>
+<div class="hwzq">
+    <ul>
+        <li>华为专区</li>
+        <li>HarmonyOS</li>
+        <li>耳机</li>
+        <li>美食酒饮</li>
+        <li>手表</li>
+    </ul>
+</div>
+<main>
+    <div id="carousel-example-generic" class="carousel slide lunbotu" data-ride="carousel">
+        <!-- 页码 -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+        </ol>
+
+        <!-- 主要内容 -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./img/image/1.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/image/2.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/image/3.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/image/4.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/image/5.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/image/6.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/image/7.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 左右按钮 -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="zhbg">
+        <div>
+            <ul>
+                <a href="#">
+                    <li><img src="./img/image/c1.png" alt="">
+                        <span>智慧办公</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c2.png" alt="">
+                        <span>智能家居</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c3.gif" alt="">
+                        <span>华为手机</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c4.png" alt="">
+                        <span>影音娱乐</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c5.png" alt="">
+                        <span>运动健康</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c6.png" alt="">
+                        <span>AITO汽车</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c7.png" alt="">
+                        <span>众测</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c8.png" alt="">
+                        <span>鸿蒙智联</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c9.png" alt="">
+                        <span>华为智选</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c15.png" alt="">
+                        <span>直播</span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <a href="#">
+                    <li><img src="./img/image/c11.png" alt="">
+                        <span>智慧出行</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c12.png" alt="">
+                        <span>莫塞尔</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c13.png" alt="">
+                        <span>个护健康</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c15.png" alt="">
+                        <span>直播</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c14.png" alt="">
+                        <span>教育商店</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c16.png" alt="">
+                        <span>企业团购</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c17.png" alt="">
+                        <span>拼团</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c18.png" alt="">
+                        <span>领卷中心</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c19.png" alt="">
+                        <span>二手机</span>
+                    </li>
+                </a>
+                <a href="#">
+                    <li><img src="./img/image/c5.png" alt="">
+                        <span>运动健康</span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="miaosha">
+        <div>
+            <div class="miaosha-header">
+                <div class="xsg"><span>限时购</span>
+                    <span>好货限时抢</span>
+                </div>
+                <div class="ms"><span>秒杀</span>
+                    <span>距结束</span>
+                    <div></div>
+                </div>
+            </div>
+            <div class="miaosha-footer">
+                <ul>
+                    <li>
+                        <div><img src="./img/image/c20.png" alt=""></div>
+                        <span>￥5649</span>
+                        <del>￥5999</del>
+                    </li>
+                    <li>
+                        <div><img src="./img/image/c21.png" alt=""></div>
+                        <span>￥259</span>
+                        <del>￥299</del>
+                    </li>
+                    <li>
+                        <div><img src="./img/image/c22.png" alt=""></div>
+                        <span>￥128</span>
+                        <del></del>
+                    </li>
+                    <li>
+                        <div><img src="./img/image/c23.png" alt=""></div>
+                        <span>￥1399</span>
+                        <del>￥1999</del>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="xinren">
+        <div></div>
+    </div>
+    <div class="qjxp"><img src="./img/image/qj.png" alt=""></div>
+    <div class="xinpin">
+        <div class="xinpin1"> <a href="#">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- 页码 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <!-- 主要内容 -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./img/image/xinpin1.jpg" alt="...">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/image/xinpin2.jpg" alt="...">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/image/xinpin3.jpg" alt="...">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+        </div>
+        <div class="xinpin2">
+            <div><a href="#"><img src="./img/image/xinpin4.jpg" alt=""></a></div>
+            <div><a href="#"><img src="./img/image/xinpin5.jpg" alt=""></a></div>
+        </div>
+
+        <div><a href="#"><img src="./img/image/xinpin6.jpg" alt=""></a></div>
+        <div><a href="#"><img src="./img/image/xinpin7.jpg" alt=""></a></div>
+        <div><a href="#"><img src="./img/image/xinpin8.jpg" alt=""></a></div>
+        <div><a href="#"><img src="./img/image/xinpin9.jpg" alt=""></a></div>
+    </div>
+</main>
+<div class="footer">
+    <a href="">
+        <div class="shangpin1">
+            <div><img src="./img/image/shangpin1.png" alt=""></div>
+            <div>
+                <h5>SKG按摩腰带Hi-W7</h5>
+                <div>
+                    <span>￥599</span>
+                    <del>￥699</del>
+                </div>
+                <div>
+                    <div>限时优惠</div>
+                    <div>秒杀</div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a href="">
+        <div class="shangpin2 shangpin1">
+            <div><img src="./img/image/shangpin2.png" alt=""></div>
+            <div>
+                <h5> <span>热销爆款</span> HUAWEI nova9 系列</h5>
+                <div>直降100元</div>
+                <div>
+                    <span>￥2399</span>
+                    <del>￥2599</del>
+                </div>
+                <div>
+                    <div>限时特价</div>
+                    <div>赠送积分</div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+
+    <a class=" shangpin3" href="">
+        <div class="shangpin2 shangpin1">
+            <div><img src="./img/image/shangpin3.png" alt=""></div>
+            <div>
+                <h5> <span>新品上市</span>【新品】 HUAWEI Sound Joy</h5>
+                <div>限时直降50元</div>
+                <div>
+                    <span>￥949</span>
+                    <del>￥999</del>
+                </div>
+                <div>
+                    <div>限时特价</div>
+                    <div>分期免息</div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="shangpin1">
+            <div><img src="./img/image/shangpin4.png" alt=""></div>
+            <div>
+                <h5>HUAWEI WATCH GT 3</h5>
+                <div>
+                    <span>￥1588</span>
+
+                </div>
+                <div>
+                    <div>限时优惠</div>
+                    <div>秒杀</div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="shangpin2 shangpin1">
+            <div><img src="./img/image/shangpin5.png" alt=""></div>
+            <div>
+                <h5> <span>热销爆款</span> HUAWEI Matebook 系列</h5>
+                <div>尊享12期免息</div>
+                <div>
+                    <span>￥10399</span>
+                    <del>￥10499</del>
+                </div>
+                <div>
+                    <div>限时特价</div>
+                    <div>分期免息</div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="shangpin2 shangpin1">
+            <div><img src="./img/image/shangpin6.png" alt=""></div>
+            <div>
+                <h5> <span>VMALL配送</span> 希影 P8 只能投影仪</h5>
+                <div>直降100元</div>
+                <div>
+                    <span>￥988</span>
+                    <del>￥1088</del>
+                </div>
+                <div>
+                    <div>限时特价</div>
+                    <!-- <div>赠送积分</div> -->
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<a href="#" class="fanhui"><i class=" glyphicon glyphicon-hand-up"></i></a>
+<script src="./bootstrap-3.4.1-dist/js/jquery-3.4.1.min.js"></script>
+<script src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

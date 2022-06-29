@@ -1,0 +1,424 @@
+.hwzq {
+    width: 100%;
+    height: 36px;
+    margin-top: 58px;
+    padding: 0 16px;
+    /* background-color: blueviolet; */
+}
+
+.hwzq ul {
+    display: flex;
+    /* align-items: center; */
+}
+
+.hwzq ul li {
+    height: 28px;
+    /* display: inline-block; */
+    margin: 4px 8px 0 0;
+    border-radius: 14px;
+    /* background-color: pink; */
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 28px;
+    background-color: rgb(229, 231, 233);
+}
+
+.hwzq ul li:last-child {
+    margin: 4px 0 0;
+}
+
+.lunbotu {
+    overflow: hidden;
+    border-radius: 20px !important;
+    margin: 10px 10px 0;
+}
+
+/* -----------------智慧办公———————————————————— */
+.zhbg {
+    width: 100%;
+    height: 180px;
+    /* background-color: pink; */
+    /* padding: 0 16px; */
+    position: relative;
+    overflow: scroll;
+    margin-top: 10px;
+}
+
+.zhbg div:first-child {
+    width: 100%;
+    height: 180px;
+
+}
+
+.zhbg div ul {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zhbg div ul a {
+    width: 20%;
+    height: 90px;
+    color: black;
+}
+
+.zhbg div ul a li {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zhbg div ul a li img {
+    width: 48px;
+    height: 48px;
+}
+
+.zhbg div:last-child {
+    width: 100%;
+    height: 180px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 0;
+    left: 375.5px;
+
+}
+
+.miaosha {
+    width: 100%;
+    height: 170px;
+    padding: 0 16px;
+    /* background-color: aqua; */
+    margin-top: 10px;
+
+}
+
+.miaosha>div {
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+    padding: 0 12px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.miaosha-header {
+    width: 100%;
+    height: 44px;
+    /* background-color: aqua; */
+    /* line-height: 44px; */
+    position: relative;
+}
+
+.miaosha-header>div {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    line-height: 44px;
+}
+
+.miaosha-header>div:last-child {
+    right: 0;
+    top: 0;
+}
+
+.xsg span:first-child,
+.ms span:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.xsg span:last-child,
+.ms span:nth-of-type(2) {
+    font-size: 12px;
+    margin: 0 4px;
+}
+
+.ms>div {
+    display: inline-block;
+    height: 18px;
+    width: 70px;
+    position: absolute;
+    top: 13.2px;
+    /* background-color: pink; */
+    background-image: url(../img/image/QQ图片.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.miaosha-footer {
+    width: 100%;
+    height: 126px;
+    /* background-color: purple; */
+}
+
+.miaosha-footer ul {
+    display: flex;
+}
+
+.miaosha-footer ul li {
+    width: calc(100% / 4);
+    height: 126px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.miaosha-footer ul li img {
+    width: 57.5px;
+    height: 57.5px;
+}
+
+.miaosha-footer ul li div {
+    width: 73.75px;
+    height: 73.75px;
+    padding: 8px;
+}
+
+.miaosha-footer ul li span {
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.miaosha-footer ul li del {
+    height: 20px;
+    color: gray;
+}
+
+.xinren {
+    width: 100%;
+    height: 138px;
+    margin-top: 10px;
+    padding: 0 16px;
+    /* background-color: aqua; */
+
+}
+
+.xinren>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(../img/image/xr.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.qjxp {
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    /* background-color: aqua; */
+}
+
+.qjxp img {
+    width: 141.22px;
+    height: 24px;
+}
+
+.xinpin {
+    width: 100%;
+    height: 509.34px;
+    /* background-color: aqua; */
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.xinpin1,
+.xinpin2 {
+    width: 167px;
+    height: 250.5px;
+    /* background-color: pink; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.xinpin>div:nth-of-type(n+3) {
+    width: 167px;
+    height: 121px;
+    /* background-color: pink; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.xinpin2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.xinpin2>div {
+    width: 167px;
+    height: 121px;
+    /* background-color: blue; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.xinpin2>div img,
+.xinpin>div:nth-of-type(n+3) img {
+    width: 167px;
+    height: 121px;
+}
+
+/* -----------------商品--------------------------------- */
+.footer {
+    width: 100%;
+    height: 870px;
+    /* background-color: aqua; */
+    padding: 0 16px 0 16px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-bottom: 58px; */
+    /* background-color: rgb(241, 243, 245); */
+    /* align-items: flex-start; */
+    /* flex-direction: row !important; */
+}
+
+.footer>div:nth-of-type(2n) {
+    margin-right: 20px;
+}
+
+.footer>a>div {
+    width: 167px;
+    background-color: white;
+    /* height: 250px; */
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.shangpin1>div:first-child {
+    width: 100%;
+    height: 167px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shangpin1>div:last-child {
+    width: 100%;
+    height: 99px;
+    padding: 8px 8px 12px;
+
+}
+
+.shangpin1>div:first-child img {
+    width: 125.25px;
+    height: 125.25px;
+}
+
+.shangpin1>div:last-child h5 {
+    width: 151px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: 600;
+}
+
+.shangpin1>div:last-child>div:nth-of-type(1) span {
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.shangpin1>div:last-child>div:nth-of-type(1) del {
+    color: gray;
+    font-size: 12px;
+}
+
+.shangpin1>div:last-child>div:nth-of-type(2)>div:first-child,
+.shangpin1>div:last-child>div:nth-of-type(2)>div:last-child {
+    display: inline-block;
+    color: red;
+    margin-right: 5px;
+    font-size: 12px;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 1px 3px;
+}
+
+/* --------------------商品2样式--------------------------------  */
+
+.shangpin2>div:last-child {
+    width: 100%;
+    height: 118px;
+    padding: 8px 8px 12px;
+
+}
+
+/* .shangpin1>div:first-child img {
+    width: 125.25px;
+    height: 125.25px;
+} */
+
+.shangpin1>div:last-child h5 span {
+
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 1px 2px;
+    font-weight: 300;
+}
+
+/* .shangpin1>div:last-child>div:nth-of-type(2) span {
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+} */
+
+.shangpin2>div:last-child>div:nth-of-type(1) {
+    color: gray;
+    font-size: 12px;
+}
+
+.shangpin2>div:last-child>div:nth-of-type(2) del {
+    color: gray;
+    font-size: 12px;
+}
+
+.shangpin2>div:last-child>div:nth-of-type(3)>div:first-child,
+.shangpin2>div:last-child>div:nth-of-type(3)>div:last-child {
+    display: inline-block;
+    color: red;
+    margin-right: 5px;
+    font-size: 12px;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 1px 3px;
+    margin-top: 5px;
+}
+
+.shangpin3 {
+    margin-top: -19px;
+}
+
+.fanhui {
+    position: fixed;
+    bottom: 0px;
+    /* left: 330px; */
+    right: 0;
+    /* background-color: white; */
+    width: 40px;
+    height: 40px;
+    z-index: 999999;
+    font-size: 30px;
+}

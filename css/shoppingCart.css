@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    background-color: rgb(229, 231, 233);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 58.8px;
+    background-color: rgb(229, 231, 233);
+    line-height: 58.8px;
+    padding: 0 44px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+}
+
+header h2 {
+    font-weight: 500;
+    margin: 18.4px 0 18.4px 0;
+    font-size: 20px;
+    /* height: 100%; */
+    /* line-height: 58.8px; */
+}
+
+.gouwuche {
+    width: 100%;
+    height: 251px;
+    padding: 32px 0;
+    background-color: rgb(229, 231, 233);
+    margin-top: 58.8px;
+}
+
+.gouwuche>div>div {
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url(../img/image2/gouwuche1.8697f1f.svg);
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: rgb(229, 231, 233); */
+}
+
+
+
+.gouwuche>div>a {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.gouwuche>div {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(229, 231, 233); */
+}
+
+.like {
+    width: 100%;
+    height: 49px;
+    /* background-color: aqua; */
+    padding: 18px 0 9px 16px;
+    background-color: rgb(229, 231, 233);
+}
+
+.like span {
+    /* height: 21px; */
+    font-size: 16px;
+    /* background-color: rgb(229, 231, 233); */
+}
+
+.main {
+    padding: 0 16px;
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: aqua; */
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(229, 231, 233);
+}
+
+.main>div:first-child {
+    width: 48%;
+    /* height: 300px; */
+    /* background-color: pink; */
+}
+
+.main>div:last-child {
+    width: 48%;
+    /* height: 300px; */
+    /* background-color: pink; */
+}
+
+.zu1 {
+    list-style: none !important;
+}
+
+.zu1>a>li:first-child {
+    width: 100%;
+    /* height: 100px; */
+}
+
+.zu1>a {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    background-color: white;
+    /* height: 200px; */
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.zu1>a>li:first-child div:nth-of-type(1) {
+    width: 100%;
+    height: 160px;
+    padding: 16px 0 0;
+    text-align: center;
+}
+
+.zu1>a>li:first-child div:nth-of-type(1) img {
+    width: 120px;
+    height: 120px;
+
+}
+
+.zu1>a>li:first-child div:nth-of-type(2) {
+    width: 100%;
+    height: 46px;
+    padding: 8px 8px 0;
+}
+
+.zu1>a>li:first-child div:nth-of-type(2) span {
+    /* text-decoration: none; */
+    color: #000;
+    font-size: 14px;
+}
+
+.zu1>a>li:first-child div:nth-of-type(3) {
+    width: 100%;
+    height: 29px;
+    padding: 6px 8px 0;
+}
+
+.zu1>a>li:first-child div:nth-of-type(3) span:first-child {
+    color: red;
+    font-size: 16px;
+}
+
+.zu1>a>li:first-child div:nth-of-type(3) span:first-child del {
+    color: gray;
+    font-size: 12px;
+}
+
+.zu1>a>li:first-child div:nth-of-type(3) p:last-child {
+    display: inline-block;
+    border: 1px solid blue;
+    color: blue;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 0 0 0 4px;
+}
+
+.zu1>a>li:first-child div:last-child {
+    width: 100%;
+    height: 18px;
+    padding: 4px 8px 0px;
+    /* margin-bottom: 5px; */
+}
+
+.zu1>a>li:first-child div:last-child span {
+    font-size: 12px;
+    color: gray;
+    /* margin-bottom: 5px; */
+}
+
+.zu1>a>li:first-child div:last-child span:first-child {
+    margin-right: 20px;
+}
+
+/* ----------------分期免息----------------------- */
+.fenqi {
+    width: 100%;
+    height: 16px;
+    padding: 0 8px;
+}
+
+.fenqi span {
+    width: 56px;
+    height: 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 2px 4px 0 0;
+    color: red;
+    border: 1px solid red;
+}
+
+.fanhui {
+    position: fixed;
+    bottom: 0px;
+    /* left: 330px; */
+    right: 0;
+    /* background-color: white; */
+    width: 40px;
+    height: 40px;
+    z-index: 999999;
+    font-size: 30px;
+}
